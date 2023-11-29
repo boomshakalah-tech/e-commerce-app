@@ -6,7 +6,7 @@ Shop Frenzy is an e-commerce application designed to revolutionize your online s
 
 Shop Frenzy is built with a customer-centric approach, aiming to make online shopping as simple, enjoyable, and efficient as possible. Whether you are browsing through our extensive product catalog, adding items to your shopping cart, or checking out your purchases, every feature has been designed with your comfort and convenience in mind.
 
-Our application's smooth navigation, intuitive interface, and secure transaction processes ensure a hassle-free shopping experience. With Shop Frenzy, you can enjoy all the benefits of online shopping without any of the hassle. 
+This application's smooth navigation, intuitive interface, and secure transaction processes ensure a hassle-free shopping experience. With Shop Frenzy, you can enjoy all the benefits of online shopping without any of the hassle. 
 
 Join us today and make your shopping truly frenzy!
 
