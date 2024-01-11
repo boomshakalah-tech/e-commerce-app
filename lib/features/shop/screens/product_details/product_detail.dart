@@ -49,7 +49,8 @@ class ProductDetailScreen extends StatelessWidget {
                   //Checkout Buttom
                   SizedBox(
                     width: double.infinity,
-                    child: ElevatedButton(onPressed: () {}, child: const Text('Checkout')),
+                    child: ElevatedButton(
+                        onPressed: () {}, child: const Text('Checkout')),
                   ),
                   const SizedBox(height: CustomSizes.spaceBetweenItems),
 
@@ -65,8 +66,10 @@ class ProductDetailScreen extends StatelessWidget {
                     trimMode: TrimMode.Line,
                     trimCollapsedText: 'Show more',
                     trimExpandedText: '  Show less',
-                    moreStyle: TextStyle(fontSize: 14, fontWeight: FontWeight.w800),
-                    lessStyle: TextStyle(fontSize: 14, fontWeight: FontWeight.w800),
+                    moreStyle:
+                        TextStyle(fontSize: 14, fontWeight: FontWeight.w800),
+                    lessStyle:
+                        TextStyle(fontSize: 14, fontWeight: FontWeight.w800),
                   ),
 
                   //Reviews
@@ -79,7 +82,10 @@ class ProductDetailScreen extends StatelessWidget {
                         titleText: 'Reviews(1000000000)',
                         showActionButton: false,
                       ),
-                      IconButton(onPressed: () => Get.to(const ProductReviewScreen()), icon: const Icon(Iconsax.arrow_right_3, size: 18)),
+                      IconButton(
+                          onPressed: () =>
+                              Get.to(() => const ProductReviewScreen()),
+                          icon: const Icon(Iconsax.arrow_right_3, size: 18)),
                     ],
                   ),
                   const SizedBox(height: CustomSizes.spaceBetweenSections),
