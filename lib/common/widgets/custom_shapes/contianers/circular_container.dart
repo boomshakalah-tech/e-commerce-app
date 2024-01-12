@@ -34,8 +34,8 @@ class CustomRoundedContainer extends StatelessWidget {
       padding: padding,
       margin: margin,
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(radius),
         color: backgroundColor,
+        borderRadius: BorderRadius.circular(radius),
         border: showBorder ? Border.all(color: borderColor) : null,
       ),
       child: child,

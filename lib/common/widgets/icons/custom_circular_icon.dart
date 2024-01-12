@@ -27,6 +27,8 @@ class CustomCircularIcon extends StatelessWidget {
     final isDark = CustomHelperFuntions.isDarkMode(context);
 
     return Container(
+      width: width,
+      height: height,
       decoration: BoxDecoration(
         color: iconBackgroundColor != null
             ? iconBackgroundColor!
@@ -37,14 +39,7 @@ class CustomCircularIcon extends StatelessWidget {
         // : CustomColors.lightGrey,
         borderRadius: BorderRadius.circular(100),
       ),
-      child: IconButton(
-        onPressed: onPressed,
-        icon: Icon(
-          icon,
-          color: iconColor,
-          size: iconSize,
-        ),
-      ),
+      child: IconButton(onPressed: onPressed, icon: Icon(icon, color: iconColor, size: iconSize)),
     );
   }
 }
