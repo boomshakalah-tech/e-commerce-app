@@ -71,7 +71,7 @@ class ProductMetaData extends StatelessWidget {
         Row(
           children: [
             CustomCircularImage(
-              image: CustomImagesStrings.cosmeticsIcon,
+              image: ImageStrings.cosmeticsIcon,
               width: 32,
               height: 32,
               overlayColor: isDark ? CustomColor.white : CustomColor.black,

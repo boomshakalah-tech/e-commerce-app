@@ -45,7 +45,7 @@ class CustomProductVerticalCard extends StatelessWidget {
                   child: const Center(
                     child: CustomRoundedImage(
                       height: 150,
-                      imageUrl: CustomImagesStrings.productImage2,
+                      imageUrl: ImageStrings.productImage2,
                       applyImageRadius: true,
                     ),
                   ),

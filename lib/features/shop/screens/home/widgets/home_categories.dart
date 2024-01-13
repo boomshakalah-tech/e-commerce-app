@@ -19,7 +19,7 @@ class HomeCategories extends StatelessWidget {
         itemBuilder: (_, index) {
           return CustomVerticalImageText(
             title: 'Shoes',
-            image: CustomImagesStrings.furnitureIcon,
+            image: ImageStrings.furnitureIcon,
             // backgroundColor: Colors.white,
             // imageColor: Colors.black,
             onTap: () {},

@@ -19,7 +19,7 @@ class CustomCartItem extends StatelessWidget {
       children: [
         //image
         CustomRoundedImage(
-          imageUrl: CustomImagesStrings.productImage1,
+          imageUrl: ImageStrings.productImage1,
           width: 60,
           height: 60,
           padding: const EdgeInsets.all(CustomSizes.sm),
@@ -39,8 +39,10 @@ class CustomCartItem extends StatelessWidget {
               Text.rich(
                 TextSpan(
                   children: [
-                    TextSpan(text: 'Color', style: Theme.of(context).textTheme.bodySmall),
-                    TextSpan(text: 'Green', style: Theme.of(context).textTheme.bodyLarge),
+                    TextSpan(text: 'Color ', style: Theme.of(context).textTheme.bodySmall),
+                    TextSpan(text: 'Green ', style: Theme.of(context).textTheme.bodyLarge),
+                    TextSpan(text: 'Size ', style: Theme.of(context).textTheme.bodySmall),
+                    TextSpan(text: 'UK 08 ', style: Theme.of(context).textTheme.bodyLarge),
                   ],
                 ),
               ),

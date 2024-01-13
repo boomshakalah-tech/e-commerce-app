@@ -32,7 +32,7 @@ class ProductDetailsImage extends StatelessWidget {
                 padding: EdgeInsets.all(CustomSizes.productImageRadius * 2),
                 child: Center(
                   child: Image(
-                    image: AssetImage(CustomImagesStrings.productImage2),
+                    image: AssetImage(ImageStrings.productImage2),
                   ),
                 ),
               ),
@@ -56,7 +56,7 @@ class ProductDetailsImage extends StatelessWidget {
                     backgroundColor: isDark ? CustomColor.dark : CustomColor.white,
                     border: Border.all(color: CustomColor.primary),
                     padding: const EdgeInsets.all(CustomSizes.sm),
-                    imageUrl: CustomImagesStrings.productImage2,
+                    imageUrl: ImageStrings.productImage2,
                   ),
                 ),
               ),

@@ -17,6 +17,7 @@ class CartScreen extends StatelessWidget {
           'Cart',
           style: Theme.of(context).textTheme.headlineSmall,
         ),
+        showBackArrow: true,
       ),
       body: const Padding(
         padding: EdgeInsets.all(CustomSizes.defaultSpace),

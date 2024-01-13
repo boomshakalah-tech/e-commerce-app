@@ -24,7 +24,7 @@ class UserReviewCard extends StatelessWidget {
           children: [
             Row(
               children: [
-                const CircleAvatar(backgroundImage: AssetImage(CustomImagesStrings.userProfile2)),
+                const CircleAvatar(backgroundImage: AssetImage(ImageStrings.userProfile2)),
                 const SizedBox(width: CustomSizes.spaceBetweenItems),
                 Text(name, style: Theme.of(context).textTheme.titleLarge),
               ],

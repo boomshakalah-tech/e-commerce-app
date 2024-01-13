@@ -32,7 +32,7 @@ class VerifyEmailScreen extends StatelessWidget {
               //image
               Image(
                 width: CustomHelperFuntions.screenWidth() * 0.6,
-                image: const AssetImage(CustomImagesStrings.signUpVerify),
+                image: const AssetImage(ImageStrings.signUpVerify),
               ),
               const SizedBox(height: CustomSizes.spaceBetweenSections),
 
@@ -61,7 +61,7 @@ class VerifyEmailScreen extends StatelessWidget {
                 width: double.infinity,
                 child: ElevatedButton(
                   onPressed: () => Get.to(() => SuccessScreen(
-                        image: CustomImagesStrings.signUpSucces,
+                        image: ImageStrings.singUpSuccess,
                         title: CustomTextString.yourAccountCreatedTitle,
                         subtitle: CustomTextString.yourAccountCreatedSubTitle,
                         onPressed: () => Get.to(() => const LoginScreen()),

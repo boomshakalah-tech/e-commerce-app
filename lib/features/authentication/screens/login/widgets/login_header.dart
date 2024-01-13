@@ -16,7 +16,7 @@ class LoginHeader extends StatelessWidget {
       children: [
         const Image(
           height: 150,
-          image: AssetImage(CustomImagesStrings.appLogo),
+          image: AssetImage(ImageStrings.appLogo),
         ),
         Text(
           '${CustomTextString.loginTitle} to ${CustomTextString.appName}',

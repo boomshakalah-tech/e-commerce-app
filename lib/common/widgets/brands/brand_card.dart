@@ -32,7 +32,7 @@ class BrandCard extends StatelessWidget {
             ///Icon
             Flexible(
               child: CustomCircularImage(
-                image: CustomImagesStrings.clothIcon,
+                image: ImageStrings.clothIcon,
                 backgroundColor: Colors.transparent,
                 overlayColor: isDark ? CustomColor.white : CustomColor.black,
               ),

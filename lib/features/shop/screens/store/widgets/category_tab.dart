@@ -25,16 +25,16 @@ class CategoryTab extends StatelessWidget {
               ///Brands
               const BrandShowCase(
                 images: [
-                  CustomImagesStrings.productImage1,
-                  CustomImagesStrings.productImage2,
-                  CustomImagesStrings.productImage3,
+                  ImageStrings.productImage1,
+                  ImageStrings.productImage2,
+                  ImageStrings.productImage3,
                 ],
               ),
               const BrandShowCase(
                 images: [
-                  CustomImagesStrings.productImage1,
-                  CustomImagesStrings.productImage2,
-                  CustomImagesStrings.productImage3,
+                  ImageStrings.productImage1,
+                  ImageStrings.productImage2,
+                  ImageStrings.productImage3,
                 ],
               ),
               const SizedBox(height: CustomSizes.spaceBetweenItems),

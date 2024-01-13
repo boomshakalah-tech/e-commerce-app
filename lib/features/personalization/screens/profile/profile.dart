@@ -33,7 +33,7 @@ class ProfileScren extends StatelessWidget {
                 child: Column(
                   children: [
                     const CircleAvatar(
-                      backgroundImage: AssetImage(CustomImagesStrings.userProfile1),
+                      backgroundImage: AssetImage(ImageStrings.userProfile1),
                       maxRadius: 60,
                     ),
                     // const CustomCircularImage(

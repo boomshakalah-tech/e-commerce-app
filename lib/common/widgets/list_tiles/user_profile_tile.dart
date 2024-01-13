@@ -16,7 +16,7 @@ class CustomUserProfileTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       leading: const CircleAvatar(
-        backgroundImage: AssetImage(CustomImagesStrings.userProfile1),
+        backgroundImage: AssetImage(ImageStrings.userProfile1),
         maxRadius: 30,
       ),
       // leading: const CustomCircularImage(
@@ -28,17 +28,11 @@ class CustomUserProfileTile extends StatelessWidget {
       //name
       title: Text(
         'Zeus K. Tempest',
-        style: Theme.of(context)
-            .textTheme
-            .headlineSmall!
-            .apply(color: CustomColor.white),
+        style: Theme.of(context).textTheme.headlineSmall!.apply(color: CustomColor.white),
       ),
       subtitle: Text(
         'zeuskaizen@gmail.com',
-        style: Theme.of(context)
-            .textTheme
-            .bodyMedium!
-            .apply(color: CustomColor.white),
+        style: Theme.of(context).textTheme.bodyMedium!.apply(color: CustomColor.white),
       ),
       trailing: IconButton(
         onPressed: onPressed,

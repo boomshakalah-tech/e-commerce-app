@@ -47,6 +47,6 @@ class CAppTheme {
     elevatedButtonTheme: CElevatedButtonTheme.darkElevatedButtonTheme,
     inputDecorationTheme: CTextFormFieldTheme.darkInputDecorationTheme,
     navigationBarTheme: CNavigationBarTheme.darkNavigationBarTheme,
-    iconButtonTheme: CustomIconButtonTheme.darkIconButtonTheme,
+    iconButtonTheme: CIconButtonTheme.darkIconButtonTheme,
   );
 }
