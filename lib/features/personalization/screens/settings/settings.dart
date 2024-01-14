@@ -1,4 +1,6 @@
 import 'package:e_commerc_app/features/personalization/screens/address/address.dart';
+import 'package:e_commerc_app/features/shop/screens/cart/cart.dart';
+import 'package:e_commerc_app/features/shop/screens/order/order.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
@@ -28,16 +30,12 @@ class SettingsScreen extends StatelessWidget {
                   CustomAppBar(
                     title: Text(
                       'Account',
-                      style: Theme.of(context)
-                          .textTheme
-                          .headlineMedium!
-                          .apply(color: Colors.white),
+                      style: Theme.of(context).textTheme.headlineMedium!.apply(color: Colors.white),
                     ),
                   ),
 
                   //User Profile card
-                  CustomUserProfileTile(
-                      onPressed: () => Get.to(() => const ProfileScren())),
+                  CustomUserProfileTile(onPressed: () => Get.to(() => const ProfileScren())),
 
                   const SizedBox(height: CustomSizes.spaceBetweenSections),
                 ],
@@ -67,14 +65,14 @@ class SettingsScreen extends StatelessWidget {
                     icon: Iconsax.shopping_cart,
                     title: 'My Cart',
                     subTitle: 'Add, remove product and move it to checkout',
-                    ontap: () {},
+                    ontap: () => Get.to(() => const CartScreen()),
                   ),
                   //Orders
                   SettingsMenuTile(
                     icon: Iconsax.bag_tick,
                     title: 'My Orders',
                     subTitle: 'In-progress and Completed Orders',
-                    ontap: () {},
+                    ontap: () => Get.to(() => const OrderScreen()),
                   ),
                   //Bank Account
                   SettingsMenuTile(
