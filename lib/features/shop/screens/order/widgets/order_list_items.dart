@@ -6,6 +6,7 @@ import 'package:e_commerc_app/utils/constants/sizes.dart';
 import 'package:e_commerc_app/utils/helpers/helper_functions.dart';
 import 'package:iconsax/iconsax.dart';
 
+// ad orderlist for fucking delete later
 class OrderListItem extends StatelessWidget {
   const OrderListItem({super.key});
 
